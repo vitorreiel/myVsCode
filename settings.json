@@ -1,0 +1,50 @@
+{
+    "window.zoomLevel": 0,
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "symbols",
+    "workbench.editor.labelFormat": "short",
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "apc.font.family": "BPreplay",
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".monaco-list-row": "border-radius: 4px;"
+    },
+    "explorer.compactFolders": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+        "tailwind.config.js": "tailwind.config*, postcss.config*",
+        ".env": ".env*"
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.profiles.windows": {
+        "Ubuntu": {
+            "path": [
+                "${env:windir}\\System32\\wsl.exe"
+            ],
+            "args": ["-d", "Ubuntu"],
+            "icon": "terminal-linux"
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu",
+}
